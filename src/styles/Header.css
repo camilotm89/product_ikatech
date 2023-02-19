@@ -1,0 +1,95 @@
+.header{
+    border-bottom: solid 1px;
+    border-color:rgb(210,210,210);
+    ;
+
+}
+.top-navbar{
+    background-color: rgb(210,210,210);
+    color: rgb(70,70,70);
+    display: flex;
+    font-weight:500;
+    justify-content: end;
+    align-items: center;
+    height: 26px;
+    font-size: 16px;
+    padding-right: 60px;
+
+    
+}
+
+.top-navbar-item{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.row{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    padding: 60px;
+    display: flex;
+
+}
+
+.logo{
+    text-align: start;
+    width: 50%;
+
+}
+
+.logo-img{
+    height: 100px;
+}
+
+.logo-text{
+    height: 40px;
+    padding-bottom: 10px;
+}
+.search{
+    text-align: end;
+    width: 50%;
+}
+
+.search input{
+    height: 30px;
+    margin: 10px;
+}
+.search p{
+    color:#74525B;
+}
+
+.menu{
+    text-align: start;
+    width: 50%;
+
+}
+
+.menu ul{
+    list-style:none;
+    padding: 0px; 
+}
+.menu ul li{
+    float: left;
+    padding-right: 15px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(90,90,90);
+    font-family: serif;
+    font-weight: 300;
+}   
+
+.carrito{
+    width: 50%;
+    text-align: end;
+}
+
+.carrito p{
+    text-transform: uppercase;
+    color: rgb(90,90,90);
+    font-family: serif;
+    font-weight: 300;
+}

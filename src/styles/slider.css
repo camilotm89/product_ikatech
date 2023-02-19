@@ -1,0 +1,60 @@
+.row{
+    padding-top: 7rem;
+}
+
+.slider-title{
+    background-color: rgb(222,222,222);
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: start;
+    font-family: serif;
+    color: rgb(90,90,90);
+    font-weight: bold;
+    padding: 5px;
+}
+
+.rec.rec-arrow {
+    background-color: rgba(255, 255, 255, 0);
+    color:#74525B
+}
+
+.rec.rec-arrow:hover {
+    background-color:#74525B!important;
+    border: none!important;   
+}
+
+.rec.rec-arrow:focus {
+    background-color:#74525B!important;
+    border: none!important;   
+}
+
+.rec.rec-pagination{
+    display: none;
+}
+
+.rec.rec-dot_active{
+    background-color: #74525B;
+    box-shadow:none;
+}
+.rec.rec-dot_active:focus{
+    background-color: #74525B;
+    box-shadow:none;
+}
+.rec.rec-dot_active:hover{
+    background-color: #74525B;
+    box-shadow:none!important;
+}
+
+.ezKHIn:hover, .ezKHIn:focus {
+    cursor: pointer;
+    box-shadow: #74525B!important;
+}
+
+.ezKHIn{
+    box-shadow: #74525B;
+}
+
+
+
+

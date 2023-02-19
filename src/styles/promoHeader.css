@@ -1,0 +1,10 @@
+.promoHeader{
+    background-color:#74525B;
+    color:#FFF;
+    font-size: 26px;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

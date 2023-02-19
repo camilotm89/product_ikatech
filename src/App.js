@@ -1,23 +1,27 @@
 import logo from './logo.svg';
+import data from './components/data/zapato.json'
 import './App.css';
+
+import PromoHeader from './components/commons/PromoHeader';
+import Header from './components/commons/Header';
+import MainProduct from './components/MainProduct';
+import Slider from './components/Slider';
+import RecomendedProducts from './components/RecomendedProducts';
+import SocialBanner from './components/SocialBanner';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <PromoHeader/>
+        <Header/>
+        <MainProduct product={data[1]}/>
+        
+      </div>
+      <Slider/>
+      <RecomendedProducts/>
+      <SocialBanner/>
+
     </div>
   );
 }
