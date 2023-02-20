@@ -4,6 +4,7 @@ import imageArray from "../exports/images";
 
 
 
+
 const ProductCard = (props) => {
     const cardPicture = (parseInt(props.pictureName.substring(0,props.pictureName.length-4))-1)
     return(
