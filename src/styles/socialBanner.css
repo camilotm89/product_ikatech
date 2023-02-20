@@ -1,5 +1,6 @@
 .social-banner{
     background-color: rgb(222,222,222);
+
 }   
 .title h4{
     margin-top: 80px;
@@ -7,10 +8,17 @@
     font-family: serif;
     color: rgb(90,90,90);
     font-weight: 50;
-    padding: 10px;
+    padding-top: 20px;
     letter-spacing: 3px;
+}
+.icons{
+    justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 .icons img{
     height: 50px;
     color:black;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
