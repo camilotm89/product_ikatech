@@ -23,7 +23,7 @@ const ProductCard = (props) => {
                     </div>
                     <div className="footer">
                         {props.button ? <div className="btn">
-                            <a href="#" className="btn-custom primary-btn">AGREGAR AL CARRITO  ss</a>
+                            <a href="#" className="btn-custom primary-btn">AGREGAR AL CARRITO</a>
                         </div> :<div></div>}
                         
                     </div>
