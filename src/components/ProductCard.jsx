@@ -7,12 +7,15 @@ import imageArray from "../exports/images";
 
 const ProductCard = (props) => {
     const cardPicture = (parseInt(props.pictureName.substring(0,props.pictureName.length-4))-1)
+    const changeProduct = () => {
+        console.log(cardPicture)
+    }
     return(
         <Fragment>
             <section>
                 <div className="product">
                     <div className="product-thumb">
-                        <a href="#"><img src={imageArray[cardPicture]} alt="img"></img></a>
+                        <a href="#" onClick={changeProduct}><img src={imageArray[cardPicture]} alt="img"></img></a>
                     </div>
                     <div className="product-body">
                         <div className="title">

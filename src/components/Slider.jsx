@@ -22,7 +22,7 @@ const Slider = () => {
                         {data.map((data) => {
                             return (
                                 <div className="product">
-                                    <ProductCard key={data.nombre} title={data.nombre} price={data.precio} pictureName={data.foto} button={true}/>
+                                    <ProductCard  key={data.nombre} title={data.nombre} price={data.precio} pictureName={data.foto} button={true}/>
                                 </div>
                             )
                         } )}

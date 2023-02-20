@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
 import imageArray from "../exports/images";
 import "../styles/mainProduct.css"
 
